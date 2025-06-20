@@ -9,7 +9,9 @@ import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import io.swagger.v3.oas.annotations.Hidden;
 
+@Hidden
 @Entity
 @Table(name = "users")
 @Data
